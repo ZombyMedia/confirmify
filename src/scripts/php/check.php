@@ -87,12 +87,12 @@
                     $result = $char1 + $char2 + $num1 + $num2 + $num3 + $num4 + $num5 + $num6 + $num7 + $num8 + $num9;
 
                     if ($letter_count === 1) {
-                        ?> <p class='output'>Not supported at the moment</p><?php
+                        ?> <p class='output normalx'>Not supported at the moment</p><?php
                     } elseif ($letter_count === 2) {
                         $result = $result % 9;
                         checking($result, $checksum);
                     } else {
-                        ?> <p class='output'>ERROR: To many letters in use</p> <?php
+                        ?> <p class='output normalx'>ERROR: To many letters in use</p> <?php
                     }
 
 
