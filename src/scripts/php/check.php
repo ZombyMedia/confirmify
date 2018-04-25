@@ -33,7 +33,7 @@
             </div>
 
         <!-- Placing input fields into formhandler -->
-            <div id="checkingForm">
+            <div id="feedbackForm">
                 <?php
                 $letters = $_GET['letter'];
                 $numbers = $_GET['numbers'];
@@ -130,6 +130,7 @@
                     <div class="normal">
                         <p class="output">⌄ The script is translating the Alphabetical chars into numbers</p>
                         <p class="output">⌄ Add all numbers together and calculating the modulo</p>
+                        <p class="output">⌄ Subtracting from 8 and 7</p>
                         <p class="output">⌄ Checking if the result is equals the checksum</p>
                     </div>
 
