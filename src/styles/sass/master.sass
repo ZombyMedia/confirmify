@@ -1,0 +1,51 @@
+@import "vars/sizes.sass"
+@import "vars/colors.sass"
+
+@import "modules/footer.sass"
+@import "modules/menu.sass"
+@import "modules/formhandler.sass"
+
+*
+    padding: $main-layout-padding
+    margin: $main-layout-margin
+
+body
+    background: url(../../images/bgimage.jpg)
+
+    background-position: top
+    background-size: cover
+
+/* ############################################################## */
+
+.imageshow
+    width: $imageshow-width
+    height: $imageshow-heigth
+
+.case1
+    margin-top: $case-margin
+
+.showcase
+    background-color: $color-showcase-bg
+    color: $color-empty
+    display: inline-flex
+    border-top-right-radius: $border-radius
+    border-bottom-right-radius: $border-radius
+
+    .textarea
+        background-color: $color-showcase-textarea-bg
+        padding: $showcase-textarea-padding
+        border-top-right-radius: $border-radius
+        border-bottom-right-radius: $border-radius
+
+        p
+            margin: $showcase-textarea-p-margin
+
+.color5
+    color: $color5
+.color4
+    color: $color4
+.color3
+    color: $color3
+.hint
+    color: $color-hint
+/* ################################################################## */
