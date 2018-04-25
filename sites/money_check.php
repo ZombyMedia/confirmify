@@ -38,7 +38,7 @@
                     <div class="inputblock">
                         <span id="feedback" class="ftext">Enter:</span><br />
                         <input id="letter" class="inputs" type="text" name="letter" placeholder="First two letters">
-                        <input id="numbers" class="inputs second" type="text" name="numbers" placeholder="All 12 numbers">
+                        <input id="numbers" class="inputs second" type="text" name="numbers" placeholder="All 10 numbers">
                     </div>
                     <input id="submitbutton" type="submit" value="Check">
                 </form>
