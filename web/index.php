@@ -8,7 +8,7 @@
     <body>
         <div id="menuBar">
             <div class="menuBundle">
-                <img class="icon_image" src="src/images/icon.png"></img>
+                <img class="icon_image" src="src/images/icon.png" onContextMenu="return false;"></img>
                 <h1 id="icon">Confirmify</h1>
             </div>
 
@@ -20,7 +20,7 @@
         </div>
 
         <div class="showcase case1">
-            <img class="imageshow" src="src/images/money_check.png"></img>
+            <img class="imageshow" src="src/images/money_check.png" onContextMenu="return false;"></img>
             <div class="textarea">
                 <p>The Site is checking if the banknote is real or fake money<br>
                 It takes the serialnumber and slit it in three parts. <br><br>
