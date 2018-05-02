@@ -1,0 +1,45 @@
+@import "../vars/sizes.sass"
+@import "../vars/colors.sass"
+
+#menuBar
+    background-color: $color-darkgray
+
+#icon
+    color: $color-empty
+    padding: $icon-padding
+
+.menuBundle
+    display: inline-flex
+
+.icon_image
+    width: $icon-image
+    height: $icon-image
+
+.menuList
+    list-style: none
+    padding: $menuList-padding
+    overflow: hidden
+    background: $color-menuList-bg
+    color: $color-empty
+
+.listItem
+    width: 33.22%
+    float: left
+    transition: background-color 0.5s ease
+
+    a
+        display: block
+        margin-top: $listItem-a-margin-top
+        color: $color-empty
+        text-align: center
+        padding: $listItem-a-padding
+        text-decoration: none
+
+        :hover
+            background-color: $color-empty
+            color: $color-dark-empty
+.listItem:hover
+    background-color: #002A3E
+
+.active
+    background-color: $color-darkgray
